@@ -5,6 +5,7 @@ html,body{
   height: 100%;
 }
 .conteudo {
+	background: url(../app/img/banner.jpg);
   height: 100%;
   min-height: 100%;
   height:100%;
@@ -20,23 +21,27 @@ html,body{
 
 .corpo {
   height: 95%;
-  background-image: url(../app/img/banner.jpg);
-  background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("overlay.png");
 	color: #fff;
 	font-family: sans-serif;
 	padding-top: 15%;
 	line-height: 200%;
 }
 
+.overlay {
+	 z-index: -1;
+	 box-shadow: inset 0 0 0 1000px rgba(0,0,0,.9);
+}
+
 .menu {
   height: 5%;
 	padding-top: 1%;
-	background-color: #e44c65;
+	background-color: #e57373;
 	font-family: sans-serif;
+	color: #424242;
 }
 
 .button {
-	background-color: #e44c65;
+	background-color: #00e676;
 	border-radius: 4px;
 	font-family: Helvetica;
 	padding-right: 20px;
@@ -45,6 +50,15 @@ html,body{
 	padding-bottom: 15px;
 	font-size: 14px;
 	border: none;
+	color: #000000;
+
+}
+
+.button:hover {
+	background-color: #69f0ae;
+	/*background-color: #d32f2f;*/
+	cursor: pointer;
+	color: #000000;
 }
 
 li {
