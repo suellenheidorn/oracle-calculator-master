@@ -161,23 +161,23 @@ li {
 @media screen and (max-width: 850px) and (min-width: 641px) {
 
 		.button {
-        font-size: 26px;
-				padding-right: 35px;
-				padding-left:35px;
-				padding-top: 30px;
-				padding-bottom: 30px;
+        font-size: 20px;
+				padding-right: 30px;
+				padding-left:30px;
+				padding-top: 25px;
+				padding-bottom: 25px;
     }
 
 		.phrase {
-			font-size: 32px;
+			font-size: 24px;
 		}
 
 		.menu {
-			font-size: 30px;
+			font-size: 26px;
 		}
 
 		.footer{
-			font-size: 28px;
+			font-size: 24px;
 		}
 
 		.direitos {
@@ -185,8 +185,9 @@ li {
 		}
 
 		.icone {
-		  font-size: 40px;
+		  font-size: 32px;
 		  padding-top: 10px;
+			padding-right: 40px;
 		}
 
 		.corpo {
