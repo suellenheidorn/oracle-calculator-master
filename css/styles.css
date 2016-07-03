@@ -96,15 +96,15 @@ li {
 	}
 
 	.phrase {
-		font-size: 20px;
+		font-size: 16px;
 	}
 
 	.menu {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.footer{
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.direitos {
@@ -112,12 +112,13 @@ li {
 	}
 
 	.icone {
-		font-size: 32px;
+		font-size: 28px;
 		padding-top: 10px;
+		padding-right: 40px;
 	}
 
 	.corpo {
-		padding-top: 35%;
+		padding-top: 45%;
 	}
 }
 
@@ -131,7 +132,7 @@ li {
     }
 
 		.phrase {
-			font-size: 24px;
+			font-size: 20px;
 		}
 
 		.menu {
@@ -143,16 +144,17 @@ li {
 		}
 
 		.direitos {
-		  padding-top: 30px;
+		  padding-top: 40px;
 		}
 
 		.icone {
 		  font-size: 32px;
-		  padding-top: 10px;
+		  padding-top: 5px;
+			padding-right: 40px;
 		}
 
 		.corpo {
-			padding-top: 35%;
+			padding-top: 45%;
 		}
 }
 
