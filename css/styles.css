@@ -11,6 +11,9 @@ html,body{
   height:100%;
   width:100%;
   overflow:hidden;
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .footer{
@@ -35,9 +38,17 @@ html,body{
 .menu {
   height: 5%;
 	padding-top: 1%;
-	background-color: #e57373;
+	background-color: #212121   ;
+	/*background-color: #e57373;*/
 	font-family: sans-serif;
-	color: #424242;
+	color: #bdbdbd ;
+}
+
+.phrase {
+	letter-spacing: 2px;
+	font-family: arial;
+	font-size: 22px;
+	line-height: 200%;
 }
 
 .button {
@@ -56,7 +67,6 @@ html,body{
 
 .button:hover {
 	background-color: #69f0ae;
-	/*background-color: #d32f2f;*/
 	cursor: pointer;
 	color: #000000;
 }
@@ -74,4 +84,114 @@ li {
 .direitos {
   padding-top: 50px;
   font-family: sans-serif;
+}
+
+@media screen and (min-width: 300px) and (max-width: 359px){
+	.button {
+			font-size: 16px;
+			padding-right: 22px;
+			padding-left: 22px;
+			padding-top: 17px;
+			padding-bottom: 17px;
+	}
+
+	.phrase {
+		font-size: 20px;
+	}
+
+	.menu {
+		font-size: 20px;
+	}
+
+	.footer{
+		font-size: 18px;
+	}
+
+	.direitos {
+		padding-top: 50px;
+	}
+
+	.icone {
+		font-size: 32px;
+		padding-top: 10px;
+	}
+
+	.corpo {
+		padding-top: 35%;
+	}
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px) {
+    .button {
+        font-size: 20px;
+				padding-right: 30px;
+				padding-left:30px;
+				padding-top: 25px;
+				padding-bottom: 25px;
+    }
+
+		.phrase {
+			font-size: 24px;
+		}
+
+		.menu {
+			font-size: 24px;
+		}
+
+		.footer{
+			font-size: 20px;
+		}
+
+		.direitos {
+		  padding-top: 30px;
+		}
+
+		.icone {
+		  font-size: 32px;
+		  padding-top: 10px;
+		}
+
+		.corpo {
+			padding-top: 35%;
+		}
+}
+
+@media screen and (max-width: 850px) and (min-width: 641px) {
+
+		.button {
+        font-size: 26px;
+				padding-right: 35px;
+				padding-left:35px;
+				padding-top: 30px;
+				padding-bottom: 30px;
+    }
+
+		.phrase {
+			font-size: 32px;
+		}
+
+		.menu {
+			font-size: 30px;
+		}
+
+		.footer{
+			font-size: 28px;
+		}
+
+		.direitos {
+		  padding-top: 30px;
+		}
+
+		.icone {
+		  font-size: 40px;
+		  padding-top: 10px;
+		}
+
+		.corpo {
+			padding-top: 35%;
+		}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+
 }
